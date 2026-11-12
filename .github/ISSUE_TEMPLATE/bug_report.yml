@@ -1,0 +1,29 @@
+name: Bug report
+description: Report a problem with Natural Disasters Expanded.
+title: "[Bug]: "
+body:
+  - type: input
+    id: versions
+    attributes:
+      label: Game and mod versions
+      placeholder: Cities Skylines II version; Natural Disasters Expanded version/build
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened, and what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps and context
+      description: Include event type/number, other mods, and whether this followed loading a save. For slowdowns, describe city/disaster scale.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Screenshots and relevant logs
+      description: Optional. Remove personal information before posting; never upload credentials or game binaries.
